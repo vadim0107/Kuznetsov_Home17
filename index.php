@@ -139,30 +139,30 @@
         <span><em>Выберите категории</em></span>
         <ul>
             <li>
-                <input type="checkbox" id="category1" value="category1">
+                <input type="checkbox" id="category1" value="category1" name="spam[]">
                 <label for="category1">Оборудование</label>
             </li>
             <li>
-                <input type="checkbox" id="category2" value="category2">
+                <input type="checkbox" id="category2" value="category2" name="spam[]">
                 <label for="category2">Как приготовить обеды</label>
             </li>
             <li>
-                <input type="checkbox" id="category3" value="category3">
+                <input type="checkbox" id="category3" value="category3" name="spam[]">
                 <label for="category3">Заработай миллион за два дня</label>
             </li>
         </ul>
         <h4>На сколько сложная задача:</h4>
         <ul>
             <li>
-                <input type="radio" id="answer1" checked="checked" name="task" value="answer1">
+                <input type="radio" id="answer1" checked="checked" name="task" value="easy">
                 <label for="answer1">Совсем нет</label>
             </li>
             <li>
-                <input type="radio" id="answer2" name="task" value="answear2">
+                <input type="radio" id="answer2" name="task" value="hard">
                 <label for="answer2">Так себе</label>
             </li>
             <li>
-                <input type="radio" id="answer3" name="task" value="answear3">
+                <input type="radio" id="answer3" name="task" value="very hard">
                 <label for="answer3">Еле справились</label>
             </li>
         </ul>

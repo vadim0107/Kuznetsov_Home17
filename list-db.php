@@ -20,6 +20,8 @@
         <th>frequency</th>
         <th>books</th>
         <th>comments</th>
+        <th>spam</th>
+        <th>complexity</th>
     </tr>
     <?php
     $db_host = 'localhost';
@@ -49,6 +51,8 @@
         <td><?= $row['frequency'] ?></td>
         <td><?= $row['books'] ?></td>
         <td><?= $row['comments'] ?></td>
+        <td><?= $row['spam'] ?></td>
+        <td><?= $row['complexity'] ?></td>
     </tr>
         <?php
     }
